@@ -1,14 +1,14 @@
 let nam="naman";
 let bag="";
-for(let i=nam.length; i>=0; i++)
+for(let i=nam.length-1; i>=0; i--)
 {
     bag=bag+nam[i];
 }
-if(bag=bag)
+if(bag==nam)
 {
     console.log("Palindrome");
 }
 else 
 {
-    console.log("Not")
+    console.log("Not Palindrome")
 }
