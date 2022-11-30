@@ -1,13 +1,14 @@
 let num=25;
-let count=0;
-for(let i=0; i<=num; i++)
+let flag=true;
+for(let i=2; i<num; i++)
 {
     if(num%i==0)
     {
-        count++;
+        flag=false;
+	break;
     }
 }
-if(count>3)
+if(flag=true)
 {
     console.log(num,"is a prime number");
 }
